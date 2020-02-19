@@ -1,0 +1,35 @@
+Squirrel Simulation
+
+height=1
+width=3
+plain=[]
+i=0
+while i<=height-1:
+    j=0
+    while j<=width-1:
+        templist=[]
+        templist.append(i)
+        templist.append(j)
+        plain.append(templist)
+        j=j+1
+    i=j+1
+print(plain)
+nutsarr=[[0,2]]
+
+    
+    
+    
+    
+    
+        
+
+
+# My logic here is to make a array from height and width. 
+# from which i will get the total coordinates e.g. [[0,1],[0,2],[0,3]]
+# I have the coordinates of the nuts. 
+# Using squirel position  start while loop. Inc will be made in the coordinates and 
+# distance variable is incremented as well. if the nuts coordinates is matched with the current position of the nuts. then the distance
+# is added into the final distance variable. 
+# 
+    
+    
